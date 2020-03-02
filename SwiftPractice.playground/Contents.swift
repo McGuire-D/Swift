@@ -171,6 +171,9 @@ default:
     print("Enjoy your day!")
 }
 
+/*
+ Range operators
+ */
 let score1 = 85
 
 switch score1 {
