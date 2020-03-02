@@ -91,3 +91,18 @@ score -= 5
 
 var quote = "The rain in spain falls mainly on the"
 quote += "Spaniards"
+
+/*
+ Comparison Operators
+ */
+
+let thirdScore = 6
+let fourthScore = 4
+
+thirdScore == fourthScore
+thirdScore != fourthScore
+
+thirdScore > fourthScore
+thirdScore < fourthScore
+
+thirdScore <= fourthScore
