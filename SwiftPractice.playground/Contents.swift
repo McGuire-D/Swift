@@ -82,4 +82,12 @@ let firstHalf = ["John" , "Paul"]
 let secondHalf = ["George", "Ringo"]
 let beatles = firstHalf + secondHalf
 
+/*
+ Compound assignmenty operators adding or subtracting to variables
+ */
 
+var score = 95
+score -= 5
+
+var quote = "The rain in spain falls mainly on the"
+quote += "Spaniards"
