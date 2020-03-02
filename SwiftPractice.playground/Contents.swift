@@ -67,3 +67,19 @@ let difference = firstScore - secondScore
 let product = firstScore * secondScore
 let divided = firstScore / secondScore
 let remainder = 13 % secondScore
+
+/*
+    Operator overloading, swift will not allow adding two things that do not make sense. So you
+ will not be able to add a string to a floating number or integer.
+*/
+let meaningOfLife = 42
+let doubleMeaning = 42 + 42
+
+let fakers = "fakers gonna"
+let action = fakers + " fake"
+
+let firstHalf = ["John" , "Paul"]
+let secondHalf = ["George", "Ringo"]
+let beatles = firstHalf + secondHalf
+
+
