@@ -136,3 +136,37 @@ if age1 > 18 && age2 > 18{
 if age1 > 18 || age2 > 18 {
     print("one of them is over 18")
 }
+
+/*
+ The ternary operator
+ */
+
+let thirdCard = 11
+let fourthCard = 10
+
+print(thirdCard == secondCard ? "Cards are the same" : "Cards are different")
+
+// if else example of ternary
+
+if firstCard == secondCard {
+    print("Cards are the same")
+} else {
+    print("Cards arte different")
+}
+
+/*
+ Switch statments
+ */
+
+let weather = "sunny"
+
+switch weather {
+case "rain":
+    print("Bring an umbrella")
+case "snow":
+    print("Wrap up warm")
+case "sunny":
+    print("Wear sunscreen")
+default:
+    print("Enjoy your day!")
+}
