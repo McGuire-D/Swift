@@ -240,3 +240,20 @@ while false {
 repeat {
     print("This is false")
 } while false
+
+/*
+ Exiting multiple loops
+ */
+
+var countDown = 10
+
+while countDown >= 0 {
+    print(countDown)
+    
+    if countDown == 4 {
+        print("I'm bored. Let's go now!")
+        break
+    }
+}
+
+print("Blast Off!")
