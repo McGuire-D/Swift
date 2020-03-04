@@ -343,3 +343,20 @@ func newSquare(number1: Int) -> Int {
 
 let result1 = newSquare(number1 : 8)
 print(result1)
+
+
+/*
+ Parameter labels
+ */
+
+func square3(number2: Int) -> Int {
+    return number*number
+}
+
+let result5 = square3(number2: 8)
+
+func sayHello (to name: String) {
+    print("Hello, \(name)!")
+}
+
+sayHello(to: "Taylor")
