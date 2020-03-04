@@ -332,3 +332,14 @@ func square(number: Int) {
 
 square(number: 8)
 
+/*
+ Returning values
+ */
+
+
+func newSquare(number1: Int) -> Int {
+    return number1*number1
+}
+
+let result1 = newSquare(number1 : 8)
+print(result1)
