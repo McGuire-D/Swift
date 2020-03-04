@@ -370,3 +370,18 @@ func greet (_ person: String) {
 }
 
 greet("Taylor")
+
+/*
+ Default parameters
+ */
+
+func greet1(_ person1: String, nicely: Bool = true) {
+    if nicely == true {
+        print("Hello,\(person1)!")
+    } else {
+        print("Oh no, it's \(person1) again ...")
+    }
+}
+
+greet1("Taylor")
+greet1("Taylor", nicely: false)
