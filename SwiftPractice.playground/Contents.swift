@@ -224,17 +224,18 @@ print ("Ready or not, here I come!")
  Repeat loop
  */
 
-var number = 1
+var numb3r = 1
 
 repeat {
-    print(number)
-    number += 1
-} while number <= 20
+    print(numb3r)
+    numb3r += 1
+} while numb3r <= 20
 
 print("Ready or not, here I come!")
 
 while false {
     print("This is false")
+    continue
 }
 
 repeat {
@@ -244,7 +245,7 @@ repeat {
 /*
  Exiting multiple loops
  */
-
+/*
 var countDown = 10
 
 while countDown >= 0 {
@@ -257,7 +258,7 @@ while countDown >= 0 {
 }
 
 print("Blast Off!")
-
+*/
 /*
  exiting multiple loops
  */
@@ -303,3 +304,20 @@ while true{
     }
     
 }
+
+/*
+ Writing a function
+ */
+
+func printHelp() {
+    let message = """
+Welcome to MyApp!
+
+Run this app inside a directory of images and
+MyApp will resize them all into thumbnails
+"""
+    
+    print(message)
+}
+
+printHelp()
