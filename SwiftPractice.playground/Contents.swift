@@ -290,7 +290,7 @@ for w in 1...10 {
 /*
  Infinite loops
  */
-
+/*
 import UIKit
 
 var counter = 0
@@ -304,7 +304,7 @@ while true{
     }
     
 }
-
+*/
 /*
  Writing a function
  */
@@ -321,3 +321,14 @@ MyApp will resize them all into thumbnails
 }
 
 printHelp()
+
+/*
+ Accepting parameters
+ */
+
+func square(number: Int) {
+    print(number * number)
+}
+
+square(number: 8)
+
