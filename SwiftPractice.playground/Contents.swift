@@ -385,3 +385,15 @@ func greet1(_ person1: String, nicely: Bool = true) {
 
 greet1("Taylor")
 greet1("Taylor", nicely: false)
+
+/*
+ Variadic functions
+ */
+
+func square4( numbers: Int...) {
+    for number in numbers {
+        print("\(number) squared is \(number*number)")
+    }
+}
+
+square4(numbers: 1, 2, 3, 4, 5)
