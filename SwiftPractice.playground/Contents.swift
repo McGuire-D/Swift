@@ -360,3 +360,13 @@ func sayHello (to name: String) {
 }
 
 sayHello(to: "Taylor")
+
+/*
+ Omitting parameter lables
+ */
+
+func greet (_ person: String) {
+    print("Hello, \(person)!")
+}
+
+greet("Taylor")
