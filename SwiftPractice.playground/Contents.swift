@@ -406,7 +406,7 @@ enum PasswordError: Error {
     case obvious
 }
 
-func checkPassowrd(_ password: String) throws ->
+func checkPassword(_ password: String) throws ->
     Bool {
         if password == "password" {
             throw PasswordError.obvious
@@ -414,3 +414,15 @@ func checkPassowrd(_ password: String) throws ->
 
     return true
 }
+
+/*
+ Running throwing functions
+ */
+
+do {
+    try checkPassword("password")
+    print("That password is good!")
+} catch {
+    print("You can't use that password.")
+}
+
