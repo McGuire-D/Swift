@@ -397,3 +397,20 @@ func square4( numbers: Int...) {
 }
 
 square4(numbers: 1, 2, 3, 4, 5)
+
+/*
+ Writing throwing functions
+ */
+
+enum PasswordError: Error {
+    case obvious
+}
+
+func checkPassowrd(_ password: String) throws ->
+    Bool {
+        if password == "password" {
+            throw PasswordError.obvious
+        }
+
+    return true
+}
