@@ -446,3 +446,48 @@ doubleInPlace(number: &myNum)
 let driving = {
     print("I'm driving in my car")
 }
+
+var paintPicture = {
+    print("Where are my watercolors Summer?")
+}
+
+let learnSwift = {
+    print("Closures are like functions")
+}
+learnSwift()
+
+let greetUser = {
+    print("Oh hi Mark!")
+}
+greetUser()
+
+var connectVPN = {
+    print("Connected!")
+}
+connectVPN()
+
+ let takeCruise = {
+    print("A week of vacation!")
+}
+takeCruise()
+
+let upgrade = {
+    print("Upgrading...")
+}
+upgrade()
+
+var castVote = {
+    print("Ivoted!")
+}
+castVote()
+
+/*
+ Accepting parameters in a closure
+ */
+
+
+let driving1 = { (place: String) in
+    print("I'm going to \(place) in my car")
+}
+
+driving1("London")
