@@ -491,3 +491,18 @@ let driving1 = { (place: String) in
 }
 
 driving1("London")
+
+
+/*
+ Returning values from a closure
+ */
+
+
+let driving2 = { (place: String) ->
+    String in
+    return("I'm going to \(place) in my car")
+}
+
+let message = driving2("London")
+
+print(message)
