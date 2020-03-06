@@ -233,11 +233,12 @@ repeat {
 
 print("Ready or not, here I come!")
 
-while false {
+/*
+ while false {
     print("This is false")
     continue
 }
-
+*/
 repeat {
     print("This is false")
 } while false
