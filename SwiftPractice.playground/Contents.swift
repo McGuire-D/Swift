@@ -522,3 +522,20 @@ func travel(action: () -> Void) {
 }
 
 travel(action: driving3)
+
+/*
+ Trailing closure syntax
+ */
+
+func travel1(action: () -> Void) {
+    print("I'm getting ready to go.")
+    action()
+    print("I arrived!")
+}
+
+travel1 {
+    print("I'm driving in my car")
+}
+
+
+
