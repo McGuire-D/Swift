@@ -437,3 +437,12 @@ func doubleInPlace(number: inout Int) {
 
 var myNum = 10
 doubleInPlace(number: &myNum)
+
+
+/*
+ creating basic closures
+ */
+
+let driving = {
+    print("I'm driving in my car")
+}
