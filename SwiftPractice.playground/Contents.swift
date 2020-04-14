@@ -550,5 +550,7 @@ func travel(action: (String) -> Void) {
 travel { (place: String) in
     print("I'm going to \(place) in my car")
 }
-
+/*
+ adding notes to new mac
+ */
 
