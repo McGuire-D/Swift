@@ -94,4 +94,8 @@ let colors2 = Set(["red","green","blue","red","blue"])
 Lesson 10: Tuples
 */
 
+var name = (first: "Jimmy", last:"Dean")
+name.0
+name.first
+
 
