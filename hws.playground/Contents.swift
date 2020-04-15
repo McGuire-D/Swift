@@ -55,5 +55,17 @@ var results = "The test results are: \(str)"
 
 /*
  Lesson 6: Constants
+ immutable variables
  */
 
+let taylor = "swift"
+
+/*
+ Lesson 7: Type annotations
+ */
+
+let str4 = "Hello,Playground"
+let album: String = "Reputation"
+let year: Int = 1989
+let height: Double = 1.78
+let taylorRocks: Bool = true
