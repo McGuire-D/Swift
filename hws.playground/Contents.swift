@@ -98,4 +98,14 @@ var name = (first: "Jimmy", last:"Dean")
 name.0
 name.first
 
+/*
+Lesson 11: Arrays vs sets vs tuples
+ */
 
+let address = (house: 555, street: "Jimmy Dean Avenue", city: "Nashville")
+let set = Set(["aardvark", "astronaut", "azalea"])
+let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
+
+/*
+Lesson 12: Dictionaries
+ */
