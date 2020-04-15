@@ -69,3 +69,29 @@ let album: String = "Reputation"
 let year: Int = 1989
 let height: Double = 1.78
 let taylorRocks: Bool = true
+
+/*
+Lesson 8: Arrays
+*/
+
+let john = "John Lennon"
+let paul = "Paul McCartney"
+let george = "George Harrison"
+let ringo = "Ringo Starr"
+
+let beatles = [john,paul,george,ringo]
+ 
+beatles[1]
+
+/*
+Lesson 9: Sets
+ */
+
+let colors = Set(["red","green","blue"])
+let colors2 = Set(["red","green","blue","red","blue"])
+
+/*
+Lesson 10: Tuples
+*/
+
+
