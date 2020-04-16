@@ -147,3 +147,30 @@ var results3 = Array<Int>()
  Lesson 15: Enumerations
  */
 
+let result = "failure"
+let result2 = "failled"
+let result3 = "fail"
+
+enum Result {
+    case success
+    case failure
+}
+
+let result4 = Result.failure
+
+/*
+Lesson 16: Enum associated values
+ */
+
+enum Activity{
+    case bored
+    case running(destination: String)
+    case talking(topic: String)
+    case singing(volumer: Int)
+}
+
+let talking = Activity.talking(topic:"football")
+
+/*
+Lesson 17: Enum raw values
+ */
