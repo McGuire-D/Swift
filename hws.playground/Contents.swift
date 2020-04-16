@@ -131,3 +131,19 @@ favoriteIceCream["Charlotte", default:"unkown"]
 /*
  LESSON 14: Creating empty collections
  */
+
+var teams = [String: String]()
+teams["Paul"] = "Red"
+
+var results2 = [Int]()
+
+var words = Set<String>()
+var numbers = Set<Int>()
+
+var scores = Dictionary<String, Int>()
+var results3 = Array<Int>()
+
+/*
+ Lesson 15: Enumerations
+ */
+
