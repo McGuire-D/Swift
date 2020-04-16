@@ -109,3 +109,25 @@ let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
 /*
 Lesson 12: Dictionaries
  */
+
+let heights = [
+    "Taylor Swift": 1.78,
+    "Ed Sheeren": 1.73
+]
+heights["Taylor Swift"]
+
+/*
+Lesson 13: Dictionary default values
+ */
+
+let favoriteIceCream = [
+    "Paul": "Chocolate",
+    "Sophie": "Vanilla"
+]
+
+favoriteIceCream["Paul"]
+favoriteIceCream["Charlotte", default:"unkown"]
+
+/*
+ LESSON 14: Creating empty collections
+ */
