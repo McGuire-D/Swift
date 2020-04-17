@@ -82,3 +82,31 @@ if thirdCard == fourthCard{
 /*
  Lesson 25: Switch statements
  */
+
+let weather = "sunny"
+
+switch weather {
+case "rain":
+    print("Bring an umbrella")
+case "snow":
+    print("Stay home and drink coco")
+case "sunny":
+    print("Where sunscreen and have fun")
+default:
+    print("I am the bamboozled")
+}
+
+/*
+Lesson 26: Range operators
+ */
+
+let score1 = 85
+
+switch score1 {
+case 0..<50:
+    print("You failed badly.")
+case 50..<85:
+    print("You did great!")
+default:
+    print("You did great!")
+}
