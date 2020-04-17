@@ -185,7 +185,7 @@ enum Planet: Int{
 let earth = Planet(rawValue: 2)
 
 /*
- Arithmetic operators
+ Lesson 18: Arithmetic operators
  */
 
 let firstscore = 12
