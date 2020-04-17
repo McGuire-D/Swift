@@ -68,3 +68,14 @@ if age1 > 18 || age2 > 18 {
 Lesson 24: The ternary operator
  */
 
+let thirdCard = 11
+let fourthCard = 10
+if thirdCard == fourthCard{
+    print("Cards are the same")
+} else {
+    print("Cards are different")
+}
+
+/*
+ Lesson 25: Switch statements
+ */
