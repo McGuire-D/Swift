@@ -70,6 +70,9 @@ Lesson 24: The ternary operator
 
 let thirdCard = 11
 let fourthCard = 10
+
+print(thirdCard == fourthCard ? "Cards are the same" : "Cards are different")
+
 if thirdCard == fourthCard{
     print("Cards are the same")
 } else {
