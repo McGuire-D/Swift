@@ -63,3 +63,8 @@ if age1 > 18 && age2 > 18 {
 if age1 > 18 || age2 > 18 {
     print("Both are over 18")
 }
+
+/*
+Lesson 24: The ternary operator
+ */
+
