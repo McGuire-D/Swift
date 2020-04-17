@@ -52,3 +52,14 @@ if firstCard + secondCard == 21 {
 /*
 Lesson 23: Combining conditions
  */
+
+let age1 = 12
+let age2 = 21
+
+if age1 > 18 && age2 > 18 {
+    print("Both are over 18")
+}
+
+if age1 > 18 || age2 > 18 {
+    print("Both are over 18")
+}
