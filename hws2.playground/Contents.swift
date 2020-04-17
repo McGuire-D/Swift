@@ -25,3 +25,17 @@ quote += "spainards"
 /*
 Lesson 21: Comparison operators
  */
+
+let firstScore = 6
+let secondScore = 4
+
+firstScore == secondScore
+firstScore != secondScore
+
+firstScore < secondScore
+firstScore >= secondScore
+
+/*
+ Conditions
+ */
+
