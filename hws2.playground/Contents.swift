@@ -36,6 +36,19 @@ firstScore < secondScore
 firstScore >= secondScore
 
 /*
- Conditions
+ Lesson 22: Conditions
  */
 
+let firstCard = 11
+let secondCard = 10
+
+if firstCard + secondCard == 21 {
+    print("Roadhouse!")
+} else {
+    print( "Regular cards")
+}
+
+
+/*
+Lesson 23: Combining conditions
+ */
