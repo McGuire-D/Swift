@@ -174,3 +174,28 @@ let talking = Activity.talking(topic:"football")
 /*
 Lesson 17: Enum raw values
  */
+
+enum Planet: Int{
+    case mercury = 1
+    case venus
+    case earth
+    case mars
+}
+
+let earth = Planet(rawValue: 2)
+
+/*
+ Arithmetic operators
+ */
+
+let firstscore = 12
+let secondscore = 4
+
+let total = firstscore + secondscore
+let difference = firstscore - secondscore
+
+let product = firstscore * secondscore
+let divided = firstscore / secondscore
+let remainder = 13
+
+
