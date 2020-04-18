@@ -164,3 +164,21 @@ while false {
 repeat {
     print("This is false")
 } while false
+
+/*
+Lesson 30: Exiting loops
+ */
+
+var countDown = 10
+
+while countDown >= 0 {
+    print(countDown)
+    
+    if countDown == 4 {
+        print("I'm bored. lets go now!")
+        break
+    }
+    countDown -= 1
+}
+
+print("Blast off!")
