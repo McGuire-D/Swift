@@ -110,3 +110,24 @@ case 50..<85:
 default:
     print("You did great!")
 }
+
+/*
+Lesson 27: For loops
+ */
+let count = 1...10
+
+for number in count{
+    print("Number is\(number)")
+}
+
+let albums = ["Red", "1989", "Reputation"]
+
+for album in albums {
+    print("\(album) is on Apple Music")
+}
+
+print("players gonna")
+
+for _ in 1...5 {
+    print("play")
+}
