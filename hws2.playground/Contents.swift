@@ -131,3 +131,36 @@ print("players gonna")
 for _ in 1...5 {
     print("play")
 }
+
+/*
+Lesson 28: While loops
+ */
+
+var number = 1
+
+while number <= 20 {
+    print(number)
+    number += 1
+}
+
+/*
+ Lesson 29: Repeat loops
+ */
+
+
+var number1 = 1
+
+repeat {
+    print(number)
+    number += 1
+} while number <= 20
+
+print("Ready or not, here i come!")
+
+while false {
+    print("This is false")
+}
+
+repeat {
+    print("This is false")
+} while false
