@@ -270,5 +270,23 @@ print(result)
 
 /*
 Lesson 37: Parameter labels
- 
+ */
+
+
+func square2(number: Int) -> Int {
+    return number * number
+}
+
+
+let result1 = square2(number: 8)
+
+func sayHello(to name: String) {
+    print("Hello, \(name)!")
+}
+
+
+sayHello(to: "Taylor")
+
+/*
+ Lesson 38: Omitting parameter lables
  */
