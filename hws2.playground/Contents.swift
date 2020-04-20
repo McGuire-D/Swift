@@ -244,3 +244,15 @@ MyApp will resize them all into thumbnails
 
 printHelp()
 
+/*
+Lesson 32: Accepting parameters
+ */
+
+print("Hello, World!")
+
+
+func square(number: Int){
+    print(number*number)
+}
+
+square(number: 8)
