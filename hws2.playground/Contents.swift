@@ -256,3 +256,14 @@ func square(number: Int){
 }
 
 square(number: 8)
+
+/*
+Lesson 33: Returning values
+ */
+
+func square1(number: Int) -> Int {
+    return number * number
+}
+
+let result = square1 (number: 8)
+print(result)
