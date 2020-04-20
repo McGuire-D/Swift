@@ -290,3 +290,14 @@ sayHello(to: "Taylor")
 /*
  Lesson 38: Omitting parameter lables
  */
+
+func greet(_ person: String) {
+    print("Hello, \(person)!")
+}
+
+greet("Stephen")
+
+/*
+ Lesson 39: Default parameters
+ */
+
