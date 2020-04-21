@@ -311,3 +311,25 @@ func greet(_ person: String, nicely: Bool = true) {
 
 greet("Chris Hemsworth")
 greet("Chris Hemsworth", nicely: false)
+
+func packLunchbox(number: Int, healthy: Bool = true) {
+    for _ in 0..<number {
+        if healthy {
+            print("I'm packing a healthy lunchbox.")
+        } else {
+            print("Pizza for everyone!")
+        }
+    }
+}
+
+packLunchbox(number: 12, healthy: false)
+
+
+func scoreGoal(overheadKick: Bool = false) {
+    if overheadKick {
+        print("Wow - amazing!")
+    } else {
+        print("Great goal!")
+    }
+}
+scoreGoal(overheadKick: true)
