@@ -313,3 +313,17 @@ greet("Chris Hemsworth")
 greet("Chris Hemsworth", nicely: false)
 
 
+
+/*
+Lesson 40: Variadic functions
+ */
+
+print("Haters", "gonna", "hate")
+
+func square2(numbers: Int...) {
+    for number in numbers {
+        print("\(number) squared is \(number * number)")
+    }
+}
+
+square2(numbers: 1, 2, 3, 4, 5)
