@@ -370,3 +370,15 @@ do {
 } catch {
     print("You can't use that password.")
 }
+
+/*
+Lesson 43: inout parameters
+ */
+
+
+func doubleInPlace(number: inout Int) {
+    number *= 2
+}
+
+var myNum = 10
+doubleInPlace(number: &myNum)
