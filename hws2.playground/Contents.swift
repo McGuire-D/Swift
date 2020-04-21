@@ -327,3 +327,22 @@ func square2(numbers: Int...) {
 }
 
 square2(numbers: 1, 2, 3, 4, 5)
+
+/*
+Lesson 41: writing throwing functions
+ */
+
+enum PasswordError: Error {
+    case obvious
+}
+
+
+func checkPassword(_ password: String) throws -> Bool {
+    if password == "password" {
+        throw PasswordError.obvious
+    }
+    
+    return true
+}
+
+
