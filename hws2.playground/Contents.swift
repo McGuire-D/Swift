@@ -394,3 +394,15 @@ let driving = {
 }
 
 driving()
+
+
+/*
+Lesson 45: Accepting parameters in a closure
+ */
+
+
+let driving1 = { (place: String) in
+    print("I'm going to \(place) in my car")
+}
+
+driving1("London")
