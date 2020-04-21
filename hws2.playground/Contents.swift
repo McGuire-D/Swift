@@ -423,3 +423,20 @@ let driving2WithReturn = { (place: String) -> String in
 let message = driving2WithReturn("London")
 
 print(message)
+
+/*
+Lesson 47: Closures as parameters
+ */
+
+
+let driving3 = {
+    print("I'm driving in my car")
+}
+
+func travel(action: () -> Void) {
+    print("I'm getting ready to go.")
+    action()
+    print("I arrived!")
+}
+
+travel(action: driving)
