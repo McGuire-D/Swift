@@ -301,3 +301,13 @@ greet("Stephen")
  Lesson 39: Default parameters
  */
 
+func greet(_ person: String, nicely: Bool = true) {
+    if nicely == true {
+        print("Hello, \(person)!")
+    }else{
+        print("Oh no, its \(person) again...")
+    }
+}
+
+greet("Chris Hemsworth")
+greet("Chris Hemsworth", nicely: false)
