@@ -406,3 +406,20 @@ let driving1 = { (place: String) in
 }
 
 driving1("London")
+
+/*
+Lesson 46: Returning values from a closure
+ */
+
+
+let driving2 = { (place: String) in
+    print("I'm going to \(place) in my car")
+}
+
+let driving2WithReturn = { (place: String) -> String in
+    return "I'm goint to \(place) in my car"
+}
+
+let message = driving2WithReturn("London")
+
+print(message)
