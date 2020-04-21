@@ -384,3 +384,13 @@ var myNum = 10
 doubleInPlace(number: &myNum)
 
 
+/*
+Lesson 44: Creating basic closures
+ */
+
+
+let driving = {
+    print("I'm driving in my car")
+}
+
+driving()
