@@ -531,3 +531,7 @@ travel { place in
 travel {
     "I'm going to \($0) in my car"
 }
+
+/*
+Lesson 52: Closures with multiple parameters
+ */
