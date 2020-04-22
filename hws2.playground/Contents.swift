@@ -477,3 +477,7 @@ travel { (place: String) in
 }
 
 
+
+/*
+Lesson 50: Using closures as parameters when they return values
+ */
