@@ -560,8 +560,33 @@ func travel2() -> (String) -> Void {
     }
 }
 
-let result2 = travel2()
-result2("London")
+let result4 = travel2()
+result4("London")
 
 
-let result2 = travel2()("London")
+let result4 = travel2()("London")
+
+
+
+/*
+Lesson 54: Capturing values
+ */
+
+func travel4() -> (String) -> Void {
+    return {
+        print("I'm going to \($0)")
+    }
+}
+
+let result = travel4()
+result("London")
+
+
+func travel4() -> (String) -> Void {
+    var counter = 1
+
+    return {
+        print("\(counter). I'm going to \($0)")
+        counter += 1
+    }
+}
