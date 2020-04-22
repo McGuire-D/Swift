@@ -590,3 +590,8 @@ func travel4() -> (String) -> Void {
         counter += 1
     }
 }
+
+
+result("London")
+result("London")
+result("London")
