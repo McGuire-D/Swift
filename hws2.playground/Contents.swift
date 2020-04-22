@@ -535,3 +535,33 @@ travel {
 /*
 Lesson 52: Closures with multiple parameters
  */
+
+func travel(action: (String, Int) -> String) {
+    print("I'm getting ready to go.")
+    let description = action("London", 60)
+    print(description)
+    print("I arrived!")
+}
+
+travel {
+    "I'm going to \($0) at \($1) miles per hour."
+}
+
+
+
+/*
+Lesson 53: Returning closures from functions
+ */
+
+
+func travel2() -> (String) -> Void {
+    return {
+        print("I'm going to \($0)")
+    }
+}
+
+let result2 = travel2()
+result2("London")
+
+
+let result2 = travel2()("London")
