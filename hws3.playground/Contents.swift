@@ -96,3 +96,44 @@ struct Person {
 
 var person = Person(name: "Ed")
 person.makeAnonymous()
+
+
+/*
+Lesson 60: Properties and method if strings
+ */
+
+let sven = "Do or do not, there is no try."
+
+print(sven.count)
+
+print(sven.hasPrefix("Do"))
+
+print(sven.uppercased())
+
+print(sven.sorted())
+
+
+/*
+Lesson 61: Properties of methods and arrays
+ */
+
+
+var toys = ["Woody"]
+
+
+print(toys.count)
+
+
+toys.append("Buzz")
+
+
+toys.firstIndex(of: "Buzz")
+
+
+print(toys.sorted())
+
+
+toys.remove(at: 0)
+
+
+
