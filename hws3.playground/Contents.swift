@@ -42,17 +42,17 @@ print(chessBoxing.olympicStatus)
 Lesson 57: Property observers
  */
 
-struct Progress {
+struct Progress1 {
     var task: String
     var amount: Int
 }
 
-var progress = Progress1(task: "Loading data", amount: 0)
+var progress = Progress(task: "Loading data", amount: 0)
 progress.amount = 30
 progress.amount = 80
 progress.amount = 100
 
-struct Progress1 {
+struct Progress {
     var task: String
     var amount: Int {
         didSet {
