@@ -160,3 +160,19 @@ struct User1 {
 var user1 = User1()
 user.username = "Twostraws"
 
+
+
+/*
+Lesson 63: Referring to the current instances
+ */
+
+struct Person2 {
+    var name: String
+
+    init(name: String) {
+        print("\(name) was born!")
+        self.name = name
+    }
+}
+
+
