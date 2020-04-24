@@ -137,3 +137,26 @@ toys.remove(at: 0)
 
 
 
+/*
+Lesson 62: Initializers
+ */
+
+struct User {
+    var username: String
+}
+
+var user = User(username: "Twostraws")
+
+
+struct User1 {
+    var username: String
+    
+    init() {
+        username = "Anonymous"
+        print("Creating a new user!")
+    }
+}
+
+var user1 = User1()
+user.username = "Twostraws"
+
