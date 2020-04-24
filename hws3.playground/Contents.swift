@@ -205,3 +205,30 @@ lazy var familyTree = FamilyTree()
 ed.familyTree
 
 
+/*
+Lesson 65: Static properties and methods
+*/
+
+
+struct Student {
+    var name: String
+
+    init(name: String) {
+        self.name = name
+    }
+}
+
+let ed1 = Student(name: "Ed")
+let taylor = Student(name: "Taylor")
+
+struct Student1 {
+    static var classSize = 0
+    var name: String
+
+    init(name: String) {
+        self.name = name
+        Student1.classSize += 1
+    }
+}
+
+print(Student1.classSize)
