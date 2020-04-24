@@ -199,7 +199,9 @@ struct Person3 {
 
 var ed = Person3(name: "Ed")
 
-
+/*
 lazy var familyTree = FamilyTree()
-
+*/
 ed.familyTree
+
+
