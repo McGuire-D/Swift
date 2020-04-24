@@ -232,3 +232,43 @@ struct Student1 {
 }
 
 print(Student1.classSize)
+
+
+
+
+/*
+Lesson 66: Access control
+ */
+
+
+struct Person4 {
+    var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+}
+
+let ed2 = Person4(id: "12345")
+
+
+struct Person5 {
+    private var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+}
+
+
+struct Person6 {
+    private var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+
+    func identify() -> String {
+        return "My social security number is \(id)"
+    }
+}
