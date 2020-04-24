@@ -176,3 +176,30 @@ struct Person2 {
 }
 
 
+/*
+Lesson 64: Lazy properties
+ */
+
+
+struct FamilyTree {
+    init() {
+        print("Creating family tree!")
+    }
+}
+
+
+struct Person3 {
+    var name: String
+    lazy var familyTree = FamilyTree()
+
+    init(name: String) {
+        self.name = name
+    }
+}
+
+var ed = Person3(name: "Ed")
+
+
+lazy var familyTree = FamilyTree()
+
+ed.familyTree
