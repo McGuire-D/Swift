@@ -380,3 +380,29 @@ musicianCopy.name = "Tool"
 print(musicianCopy.name)
 
 print(musician())
+
+/*
+Lesson 72: Deinitializers
+ */
+
+
+class Dude {
+    var name = "John Doe"
+
+    init() {
+        print("\(name) is alive!")
+    }
+
+    func printGreeting() {
+        print("Hello, I'm \(name)")
+    }
+    deinit {
+        print("\(name) is no more!")
+    }
+}
+for _ in 1...3 {
+    let dude = Dude()
+    dude.printGreeting()
+}
+
+
