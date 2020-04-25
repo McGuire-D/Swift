@@ -406,3 +406,17 @@ for _ in 1...3 {
 }
 
 
+/*
+Lesson 73:  Mutability
+ */
+
+
+class Tswift {
+    let name = "Taylor Swift"
+}
+
+/*
+let bobby = Tswift()
+bobby.name = "Sturgil Simpson"
+print(bobby.name)
+*/
