@@ -316,3 +316,27 @@ class Poodle: Dog1 {
 /*
 Lesson 69: Overriding methods
  */
+
+class Dog2 {
+    func makeNoise() {
+        print("Woof!")
+    }
+}
+
+
+class Poodle1: Dog2 {
+}
+
+let poppy1 = Poodle1()
+poppy1.makeNoise()
+
+
+class Poodle2: Dog2 {
+    override func makeNoise() {
+        print("Yip!")
+    }
+}
+
+let jimmy = Poodle2()
+jimmy.makeNoise()
+
