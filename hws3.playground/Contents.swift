@@ -340,3 +340,16 @@ class Poodle2: Dog2 {
 let jimmy = Poodle2()
 jimmy.makeNoise()
 
+/*
+Lesson 70: Final classes
+ */
+
+final class Dog3 {
+    var name: String
+    var breed: String
+
+    init(name: String, breed: String) {
+        self.name = name
+        self.breed = breed
+    }
+}
