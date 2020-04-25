@@ -353,3 +353,30 @@ final class Dog3 {
         self.breed = breed
     }
 }
+
+/*
+Lesson 71: Copying Objects
+ */
+
+class Singer {
+    var name = "Turnpike Troubadors"
+}
+
+var singer = Singer()
+print(singer.name)
+
+var singerCopy = singer
+singerCopy.name = "Colter Wall"
+
+print(singer.name)
+
+struct musician {
+    var name = "Doug Stone"
+}
+
+var musicianCopy = musician()
+musicianCopy.name = "Tool"
+
+print(musicianCopy.name)
+
+print(musician())
